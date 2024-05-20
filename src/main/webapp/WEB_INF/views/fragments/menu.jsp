@@ -11,8 +11,8 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link" href="<c:url value='/home' />" style="color: white;">Home</a>
-        <a class="nav-link" href="<c:url value='/books' />" style="color: white;">Books</a>
-        <a class="nav-link" href="<c:url value='/members' />" style="color: white;">Members</a>
+        <a class="nav-link" href="<c:url value='/contacts' />" style="color: white;">Contacts</a>
+        <a class="nav-link" href="<c:url value='/create-contact' />" style="color: white;">Add Contact</a>
       </div>
     </div>
   </div>

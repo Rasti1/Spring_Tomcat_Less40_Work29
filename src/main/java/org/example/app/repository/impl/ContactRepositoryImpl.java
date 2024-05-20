@@ -20,7 +20,7 @@ public class ContactRepositoryImpl implements ContactRepository {
     @Override
     public boolean create(Contact contact) {
         Session session = sessionFactory.getCurrentSession();
-        String hql = "INSERT INTO Member (firstName, lastName, phoneNumber) " +
+        String hql = "INSERT INTO Contact (firstName, lastName, phoneNumber) " +
                 "VALUES (:firstName, :lastName, :phoneNumber)";
         MutationQuery query = session.createMutationQuery(hql);
         query.setParameter("firstName", contact.getFirstName());

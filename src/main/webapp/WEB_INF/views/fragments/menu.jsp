@@ -4,7 +4,7 @@
 <nav class="navbar navbar-expand-lg" style="background-color: #5905a3;">
   <div class="container-fluid">
     <a class="navbar-brand fw-bold" style="color: white;">
-      <img src="<c:url value='/resources/icons/stack-of-books.png' />" alt="Logo"
+      <img src="<c:url value='/resources/icons/Contacts.png' />" alt="Logo"
       width="32" height="36" class="d-inline-block align-text-top">
       Book Club
     </a>
